@@ -1,10 +1,12 @@
 package tests;
 
 import constans.DataSupplier;
+import jdk.jfr.Description;
 import steps.MainPageSteps;
 import org.testng.annotations.Test;
 import runners.BaseTest;
 
+@Description("FP1-T4")
 public class ContentIntegrityTests extends BaseTest {
 
     private final MainPageSteps mainPageSteps = new MainPageSteps();

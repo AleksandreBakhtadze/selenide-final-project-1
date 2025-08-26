@@ -2,12 +2,14 @@ package tests;
 
 import com.codeborne.selenide.WebDriverRunner;
 import constans.TBCContants;
+import jdk.jfr.Description;
 import org.testng.annotations.Test;
 import runners.BaseTest;
 import steps.MainPageSteps;
 
 import static com.codeborne.selenide.Selenide.open;
 
+@Description("FP1-T5")
 public class MobileSpecificTests extends BaseTest {
 
     private final MainPageSteps mainPageSteps = new MainPageSteps();

@@ -1,11 +1,13 @@
 package tests;
 
 import com.codeborne.selenide.Selenide;
+import jdk.jfr.Description;
 import org.testng.annotations.Test;
 import runners.BaseTest;
 import steps.LocationsPageSteps;
 import steps.MainPageSteps;
 
+@Description("FP1-T1")
 public class LocationsMapTests  extends BaseTest {
 
     private final MainPageSteps mainPageSteps = new MainPageSteps();

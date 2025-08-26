@@ -2,11 +2,13 @@ package tests;
 
 import constans.DataSupplier;
 import constans.TBCContants;
+import jdk.jfr.Description;
 import org.testng.annotations.Test;
 import runners.BaseTest;
 import steps.MainPageSteps;
 import steps.ProductPageSteps;
 
+@Description("FP1-T3")
 public class ProductDetailsTests extends BaseTest {
 
     private final MainPageSteps mainPageSteps = new MainPageSteps();

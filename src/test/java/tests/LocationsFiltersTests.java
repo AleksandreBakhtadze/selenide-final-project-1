@@ -1,10 +1,12 @@
 package tests;
 
+import jdk.jfr.Description;
 import org.testng.annotations.Test;
 import runners.BaseTest;
 import steps.LocationsPageSteps;
 import steps.MainPageSteps;
 
+@Description("FP1-T2")
 public class LocationsFiltersTests extends BaseTest {
 
     private final MainPageSteps mainPageSteps = new MainPageSteps();
